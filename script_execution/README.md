@@ -10,7 +10,7 @@ There is even a way of translating Python programs into Java byte code for the J
 Now the question arises, do we need to compile our Python scripts to make them faster or how can I compile them? 
 The answer is - The compilation step is done at the runtime, meaning it happens when you run your Python script. Python is doing all the thinking for you automatically! How cool! 
 
-* What if someone wants to compile the script manually? 
+What if someone wants to compile the script manually? 
 Yes, it is possible with py_compile module. This module creates a compiled version of our byte code. 
 
 
