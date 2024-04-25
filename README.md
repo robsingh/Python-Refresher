@@ -4,7 +4,7 @@ Welcome to the Python refresher guide! This guide covers everything related to P
 
 ## Table of Contents
 Structure that would follow: 
-1. [Assignment Expressions](./assignment_expressions/python-refresher/assignment_expressions)
+1. [Assignment Expressions](./python-refresher/assignment_expressions)
 2. Data Types and Variables
 3. Type Annotations
 4. Operators
