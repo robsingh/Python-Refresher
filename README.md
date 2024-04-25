@@ -20,7 +20,7 @@ Structure that would follow:
 ## Details
 
 ### Script Execution
-Detailed Information about Script Execution of Python can be found in [this file](./script_execution/README.md)
+Detailed Information about Script Execution of Python can be found in [this file](./script_execution/README.md).
 
 ### Assignment Expressions
 Detailed Information about Assignment Expressions can be found in [this file](./assignment_expressions/README.md).
