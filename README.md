@@ -16,3 +16,8 @@ Structure that would follow:
 10. Conditional Statement
 
 
+## Details
+
+### Assignment Expressions
+Detailed Information about Assignment Expressions can be found in [this file](./assignment_expressions/README.md).
+
