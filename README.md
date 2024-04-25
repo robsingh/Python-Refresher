@@ -4,16 +4,16 @@ Welcome to the Python refresher guide! This guide covers everything related to P
 
 ## Table of Contents
 Structure that would follow: 
-1. [Assignment Expressions](./assignment_expressions)
-2. Data Types and Variables
-3. Type Annotations
-4. Operators
-5. Sequential Data Types
-6. List Manipulation
-7. Shallow and Deep Copy
-8. Dictionaries
-9. Sets and Frozen Sets
-10. Conditional Statement
+* [Assignment Expressions](./assignment_expressions)
+* Data Types and Variables
+* Type Annotations
+* Operators
+* Sequential Data Types
+* List Manipulation
+* Shallow and Deep Copy
+* Dictionaries
+* Sets and Frozen Sets
+* Conditional Statement
 
 
 ## Details
