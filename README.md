@@ -1,4 +1,8 @@
-A complete Python refresher guide. It will cover everything related to Python.
+# Python Refresher Guide
+
+Welcome to the Python refresher guide! This guide covers everything related to Python.
+
+## Table of Contents
 Structure that would follow: 
 1. Assignment Expressions
 2. Data Types and Variables
