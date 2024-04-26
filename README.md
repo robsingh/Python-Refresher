@@ -6,7 +6,7 @@ Welcome to the Python refresher guide! This guide covers everything related to P
 Structure that would follow:
 * [Script Execution](./script_execution)
 * [Assignment Expressions](./assignment_expressions)
-* Data Types and Variables
+* [Data Types and Variables](./data_types_variables/)
 * Type Annotations
 * Operators
 * Sequential Data Types
@@ -25,3 +25,5 @@ Detailed Information about Script Execution of Python can be found in [this file
 ### Assignment Expressions
 Detailed Information about Assignment Expressions can be found in [this file](./assignment_expressions/README.md).
 
+### Data Type and Variables
+Detailed Information about Data Type and Variables can be found in [this file](./data_types_variables/README.md)
