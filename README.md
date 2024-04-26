@@ -26,4 +26,4 @@ Detailed Information about Script Execution of Python can be found in [this file
 Detailed Information about Assignment Expressions can be found in [this file](./assignment_expressions/README.md).
 
 ### Data Type and Variables
-Detailed Information about Data Type and Variables can be found in [this file](./data_types_variables/README.md)
+Detailed Information about Data Type and Variables can be found in [this file](./data_types_variables/README.md).
