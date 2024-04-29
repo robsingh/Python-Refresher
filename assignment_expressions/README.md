@@ -8,3 +8,7 @@ It's main purpose is to improve readability and efficiency by allowing variable 
 It is equally important to use it judiciously. It can make code less readable and potentially harder to maintain. 
 
 Checkout this [file](./example.py) where I will write some use cases. 
+
+There was a long discussion about the use of Walrus Operator for quite some time. One reason it was not introduced earlier was the
+fact that it can also be used to write code which is less readable. Personally, I have not used it a lot but I will try to implement
+in my personal projects and calculate the efficiency of the methods. 
