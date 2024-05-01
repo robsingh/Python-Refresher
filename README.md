@@ -7,9 +7,7 @@ Structure that would follow:
 * [Script Execution](./script_execution)
 * [Assignment Expressions](./assignment_expressions)
 * [Data Types and Variables](./data_types_variables/)
-* Type Annotations
-* Operators
-* Sequential Data Types
+* [Sequential Data Types](./sequential_data_types/)
 * List Manipulation
 * Shallow and Deep Copy
 * Dictionaries
@@ -27,3 +25,6 @@ Detailed Information about Assignment Expressions can be found in [this file](./
 
 ### Data Types and Variables
 Detailed Information about Data Types and Variables can be found in [this file](./data_types_variables/README.md).
+
+### Sequential Data Types
+Detailed Information about Sequential Data Types can be found in [this file](./sequential_data_types/README.md).
