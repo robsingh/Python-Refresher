@@ -20,3 +20,9 @@ Information about Python Lists is mentioned [here](./lists.py)
 
 # Tuples
 
+A tuple is an immutable list i.e. a tuple cannot be changed in any way, once it has been created.
+
+Benefits? 
+* Tuples are faster than lists. 
+* When to use -> If you know your data doesn't have to be changed, you should use tuple as this protects your data against accidental changes. 
+* Tuples can also be used as keys in dictionaries, while lists can't. 
