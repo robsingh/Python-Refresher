@@ -16,3 +16,7 @@ The items or elements of strings, lists and tuples are ordered in a defined sequ
 The byte object is a sequence of small integers. The elements of a byte object are in the range 0 to 255, corresponding to ASCII characters. 
 
 I am going to talk about rest of the topics in Sequential data types in separate files. 
+Information about Python Lists is mentioned [here](./lists.py)
+
+# Tuples
+
