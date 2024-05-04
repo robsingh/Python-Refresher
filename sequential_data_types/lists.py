@@ -22,3 +22,14 @@ while shopping_list != []:
 
 print("shopping_list: ", shopping_list)
 print("cart: ", cart)
+
+'''
+A list can be seen as a Stack. Stack is a data structure which has atleast two operations: 
+one which can be used to put or push data on the stack, and another one to take away the 
+most upper element of the stack. 
+
+List contains other methods such as append (which appends an element to the end of the list), 
+pop (which removes the mentioned element from the list, if it is called with no argument then it removes the last element from the list),
+extend (which extends a list by appending all the elements of an iterable).
+
+'''
