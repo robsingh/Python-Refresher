@@ -8,9 +8,7 @@ Structure that would follow:
 * [Assignment Expressions](./assignment_expressions)
 * [Data Types and Variables](./data_types_variables/)
 * [Sequential Data Types](./sequential_data_types/)
-* List Manipulation
-* Shallow and Deep Copy
-* Dictionaries
+* [Dictionaries](./dictionaries/)
 * Sets and Frozen Sets
 * Conditional Statement
 
@@ -28,3 +26,6 @@ Detailed Information about Data Types and Variables can be found in [this file](
 
 ### Sequential Data Types
 Detailed Information about Sequential Data Types can be found in [this file](./sequential_data_types/README.md).
+
+### Dictionary
+Detailed Information Python Dictionaries can be found in [this file](./dictionaries/README.md).
