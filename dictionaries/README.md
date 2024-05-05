@@ -5,9 +5,14 @@ A dictionary is a data structure that stores key-value pairs.
 For example, 
 ```
 person = {
-    'name': 'Anna Schmidt',
+    'name': 'Deve',
     'age': 28,
-    'city': 'Berlin',
-    'email': 'anna@example.de'
+    'city': 'Poland',
+    'email': 'deve@example.com'
 }
 ```
+* Keys in the above example are 'name', 'age', 'city', and 'email'. 
+* Every key has a corresponding value. 
+* We call a key-value pair an item. 
+* Dictionaries are useful for organizing data in a way that allows quick and easy access. 
+* Dictionaries are mutable.  
