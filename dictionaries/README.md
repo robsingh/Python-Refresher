@@ -12,7 +12,8 @@ person = {
 }
 ```
 * Keys in the above example are 'name', 'age', 'city', and 'email'. 
-* Every key has a corresponding value.
+* Every key has a corresponding value. Keys are unique. In case a keys is defined multiple times, the value of the last 'wins'!
+* Only immutable data types can be used as keys i.e. no lists or dictionaries can be used. 
 * We call a key-value pair an item. 
 * Dictionaries are useful for organizing data in a way that allows quick and easy access. 
 * Dictionaries are mutable.  
@@ -40,3 +41,12 @@ It is a less commonly used behavior because iterating over a dictionary directly
 
 # values() 
 - used to iterate over the values of a dictionary. 
+
+# pop() 
+- In dictionaries, the pop() method is used to remove a specific key-value pair from the dictionary and return the corresponding value. 
+
+
+
+
+
+
