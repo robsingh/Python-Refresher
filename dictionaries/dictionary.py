@@ -27,3 +27,19 @@ def dict_merge_sum(d1, d2):
 d1 = dict(a=10, b=5, c=4)
 d2 = dict(a=2, b=4, c=6)
 print(dict_merge_sum(d1, d2))
+
+# another way
+
+def dict_sum(d1, d2):
+    """  Merging and calculating the sum of two dictionaries: 
+    Two dicionaries d1 and d2 with numerical values and
+    possibly disjoint keys are merged and the values are added if
+    the exist in both values, otherwise the missing value is taken to
+    be 0"""
+    
+    return { k: d1.get(k, 0) + d2.get(k, 0) for k in set(d1) | set(d2) }
+
+d1 = dict(a=4, b=5, d=8)
+d2 = dict(a=1, d=10, e=9)
+
+dict_merge_sum(d1, d2)
