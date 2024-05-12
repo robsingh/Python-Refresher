@@ -29,4 +29,4 @@ Detailed Information about Sequential Data Types can be found in [this file](./s
 Detailed Information about Python Dictionaries can be found in [this file](./dictionaries/README.md).
 
 ### Sets
-Detailed Information about Python Sets can be found in [this file](./sets/README.md)
+Detailed Information about Python Sets can be found in [this file](./sets/README.md).
