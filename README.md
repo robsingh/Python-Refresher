@@ -9,9 +9,7 @@ Structure that would follow:
 * [Data Types and Variables](./data_types_variables/)
 * [Sequential Data Types](./sequential_data_types/)
 * [Dictionaries](./dictionaries/)
-* Sets and Frozen Sets
-* Conditional Statement
-
+* [Sets and Frozen Sets](./sets/)
 
 ## Details
 
@@ -28,4 +26,7 @@ Detailed Information about Data Types and Variables can be found in [this file](
 Detailed Information about Sequential Data Types can be found in [this file](./sequential_data_types/README.md).
 
 ### Dictionary
-Detailed Information Python Dictionaries can be found in [this file](./dictionaries/README.md).
+Detailed Information about Python Dictionaries can be found in [this file](./dictionaries/README.md).
+
+### Sets
+Detailed Information about Python Sets can be found in [this file](./sets/README.md)
