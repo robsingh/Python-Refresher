@@ -13,7 +13,7 @@ The function should return the merged sum dictionary m of those dictionaries.
 If a key k is both in d1 and d2, the corresponding values will be added and included in the dictionary m,
 If k is only contained in one of the dictionaries, the k and the corresponding value will be included in m
 '''
-def dict_merge_sum(d1, d2):
+'''def dict_merge_sum(d1, d2):
     merged_sum = d1.copy()
     for key,value in d2.items():
         if key in d1:
@@ -27,19 +27,25 @@ def dict_merge_sum(d1, d2):
 d1 = dict(a=10, b=5, c=4)
 d2 = dict(a=2, b=4, c=6)
 print(dict_merge_sum(d1, d2))
+'''
 
-# another way
+'''
+Given is the following simplified data of a supermarket:
 
-def dict_sum(d1, d2):
-    """  Merging and calculating the sum of two dictionaries: 
-    Two dicionaries d1 and d2 with numerical values and
-    possibly disjoint keys are merged and the values are added if
-    the exist in both values, otherwise the missing value is taken to
-    be 0"""
-    
-    return { k: d1.get(k, 0) + d2.get(k, 0) for k in set(d1) | set(d2) }
+supermarket = { "milk": {"quantity": 20, "price": 1.19},
+               "biscuits":  {"quantity": 32, "price": 1.45},
+               "butter":  {"quantity": 20, "price": 2.29},
+               "cheese":  {"quantity": 15, "price": 1.90},
+               "bread":  {"quantity": 15, "price": 2.59},
+               "cookies":  {"quantity": 20, "price": 4.99},
+               "yogurt": {"quantity": 18, "price": 3.65},
+               "apples":  {"quantity": 35, "price": 3.15},
+               "oranges":  {"quantity": 40, "price": 0.99},
+               "bananas": {"quantity": 23, "price": 1.29}}
 
-d1 = dict(a=4, b=5, d=8)
-d2 = dict(a=1, d=10, e=9)
+To be ready for an imminent crisis you decide to buy everything. 
+The question is how much will you have to pay?
+'''
 
-dict_merge_sum(d1, d2)
+
+
