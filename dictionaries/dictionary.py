@@ -31,6 +31,17 @@ print(dict_merge_sum(d1, d2))
 
 '''
 Given is the following simplified data of a supermarket:
+To be ready for an imminent crisis you decide to buy everything. 
+The question is how much will you have to pay?
+'''
+
+def supermarket_purchase(supermarket):
+    total_cost = 0
+    for value in supermarket.values():
+        quantity = value['quantity']
+        price = value['price']
+        total_cost += quantity*price
+    return total_cost
 
 supermarket = { "milk": {"quantity": 20, "price": 1.19},
                "biscuits":  {"quantity": 32, "price": 1.45},
@@ -43,9 +54,5 @@ supermarket = { "milk": {"quantity": 20, "price": 1.19},
                "oranges":  {"quantity": 40, "price": 0.99},
                "bananas": {"quantity": 23, "price": 1.29}}
 
-To be ready for an imminent crisis you decide to buy everything. 
-The question is how much will you have to pay?
-'''
 
-
-
+print(supermarket_purchase(supermarket))
