@@ -6,7 +6,7 @@ city_area_dict = dict(zip(cities, areas))
 
 print(city_area_dict)'''
 
-'''
+'''Example: 1
 Write a function dict_merge_sum that takes two dictionaries d1 and d2 as parameters. 
 The values of both dictionaries are numerical. 
 The function should return the merged sum dictionary m of those dictionaries. 
@@ -30,6 +30,7 @@ print(dict_merge_sum(d1, d2))
 '''
 
 '''
+Example: 2
 Given is the following simplified data of a supermarket:
 To be ready for an imminent crisis you decide to buy everything. 
 The question is how much will you have to pay?
@@ -57,11 +58,12 @@ supermarket = { "milk": {"quantity": 20, "price": 1.19},
 print(supermarket_purchase(supermarket))'''
 
 '''
+Example: 3
 Create a virtual supermarket. For every article there is a price per article and a quantity, i.e. the stock. 
 Create shopping lists for customers. The shopping lists contain articles plus the quantity.
 The customers fill their carts, one after the other. Check if enough goods are available! Create a receipt for each customer.
 '''
-supermarket = { "milk": {"quantity": 20, "price": 1.19},
+'''supermarket = { "milk": {"quantity": 20, "price": 1.19},
                "biscuits":  {"quantity": 32, "price": 1.45},
                "butter":  {"quantity": 20, "price": 2.29},
                "cheese":  {"quantity": 15, "price": 1.90},
@@ -107,3 +109,43 @@ for customer in customers:
         print(f"{quantity:3d} {name:12s} {unit_price:8.2f} {item_sum:8.2f}")
         total_sum += item_sum
     print(f"\nTotal Sum: {total_sum:11.2f}")
+'''
+
+'''
+Example: 4
+A salesperson takes the following route: 
+Port Carol to Rogerburgh to Smithstad to Scottshire to Clarkhaven to Dixonshire to Port Carol. 
+How many kilometres did the salesperson drive?
+'''
+'''
+t = "Port Carol to Rogerburgh to Smithstad to Scottshire to Clarkhaven to Dixonshire to Port Carol"
+cities = t.split(" to ")
+distance_matrix = {
+         'Rogerburgh': {'Rogerburgh': 0, 'Smithstad': 5.2, 'Scottshire': 12.3,
+                        'Clarkhaven': 14.9, 'Dixonshire': 12.7, 'Port Carol': 3.4},
+         'Smithstad': {'Rogerburgh': 5.2, 'Smithstad': 0, 'Scottshire': 8.4, 
+                       'Clarkhaven': 13.9, 'Dixonshire': 14.3, 'Port Carol': 8.6},
+         'Scottshire': {'Rogerburgh': 12.3, 'Smithstad': 8.4,  'Scottshire': 0,
+                        'Clarkhaven': 20.1, 'Dixonshire': 21.6, 'Port Carol': 6.5},
+         'Clarkhaven': {'Rogerburgh': 14.9, 'Smithstad': 13.9, 'Scottshire': 20.1,
+                        'Clarkhaven': 0, 'Dixonshire': 11.9, 'Port Carol': 18.7},
+         'Dixonshire': {'Rogerburgh': 12.7, 'Smithstad': 14.3, 'Scottshire': 21.6,
+                        'Clarkhaven': 11.9, 'Dixonshire': 0, 'Port Carol': 15.3},
+         'Port Carol': {'Rogerburgh': 3.4, 'Smithstad': 8.6, 'Scottshire': 8.6,
+                        'Clarkhaven': 18.7, 'Dixonshire': 15.3, 'Port Carol': 0}}
+
+total_distance = 0
+for i in range(len(cities)-1):
+    distance = distance_matrix[cities[i]][cities[i+1]]
+    txt = f"From {cities[i]} to {cities[i+1]}"
+    print(f"{txt:30s}: {distance:5.1f}")
+    total_distance += distance
+
+print("="* 37)
+print(f'{"The salesperson travelled":30s}: {total_distance:5.1f}')
+'''
+
+
+
+
+
