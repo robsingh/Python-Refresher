@@ -145,6 +145,25 @@ print("="* 37)
 print(f'{"The salesperson travelled":30s}: {total_distance:5.1f}')
 '''
 
+''''
+Example: 5
+cities = ['Stuttgart', 'Karlsruhe', 'Mannheim', 'Freiburg', 'Heidelberg', 'Heilbronn']
+areas = [207.35, 173.46, 144.96, 153.07, 108.83, 99.88]  # Areas are in square kilometers
+populations = [634830, 313092, 309370, 230241, 160355, 125960]
+Create a dictionary with the city names as keys and the corresponding areas and population numbers as values.
+'''
+# def area(cities, areas, populations):
+#    for city,area,population in zip(cities, areas, populations):
+#       print(f'City: {city}, Area: {area}, Population: {population}')
+'''cities = ['Stuttgart', 'Karlsruhe', 'Mannheim', 'Freiburg', 'Heidelberg', 'Heilbronn']
+areas = [207.35, 173.46, 144.96, 153.07, 108.83, 99.88]
+populations = [634830, 313092, 309370, 230241, 160355, 125960]
+
+city_info_dict = {city:(area,population) for city, area, population in
+                  zip(cities, areas, populations)}
+
+print(city_info_dict)'''
+
 
 
 
