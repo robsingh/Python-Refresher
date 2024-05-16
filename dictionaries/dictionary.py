@@ -164,7 +164,64 @@ city_info_dict = {city:(area,population) for city, area, population in
 
 print(city_info_dict)'''
 
+'''
+Create a Python program to manage a student gradebook using nested dictionaries. 
+Follow the instructions mentioned in the docstring.
+'''
+def add_student(gradebook, student_name):
+    '''
+    It takes the gradebook dictionary and a student_name as input
+    and adds an empty dictionary for the student's grades to the gradebook.
+    '''
+    gradebook[student_name] = {}
+
+def add_grade(gradebook, student_name, subject, grade):
+    '''
+    It takes the gradebook dictionary, a student_name, a subject, and a grade as input.
+    It adds the grade for the specified subject to the grades dictionary of the specified student in the gradebook.
+    '''
+    if student_name in gradebook:
+        gradebook[student_name][subject] = grade
+    else:
+        print(f'{student_name} does not exist!')
 
 
+def calculate_average_grade(gradebook, student_name):
+    '''
+    It takes the gradebook dictionary and a student_name as input and calculates the average grade for the specified student.
+    '''
+    if student_name in gradebook:
+        grades = gradebook[student_name].values()
+        average_grade = sum(grades) / len(grades)
+        return average_grade
+    else:
+        print(f'{student_name} not found!')
 
+def display_gradebook(gradebook):
+    '''
+    It takes the gradebook dictionary as input and displays the contents of the gradebook, 
+    including student names, subject, grades and average grade for each student.
+    '''
+    print("Gradebook:")
+    for student, grades in gradebook.items():
+        print(student + ":")
+        for subject, grade in grades.items():
+            print("- {}: {}".format(subject, grade))
+        average_grade = calculate_average_grade(gradebook, student)
+        if average_grade is not None:
+            print(" Average Grade: {:.2f}".format(average_grade))
+        print()
 
+gradebook = {}
+
+add_student(gradebook, "Alice")
+add_grade(gradebook, "Alice", "Math", 85)
+add_grade(gradebook, "Alice", "Science", 90)
+add_grade(gradebook, "Alice", "History", 88)
+
+add_student(gradebook, "Bob")
+add_grade(gradebook, "Bob", "Math", 78)
+add_grade(gradebook, "Bob", "Science", 92)
+add_grade(gradebook, "Bob", "History", 85)
+
+display_gradebook(gradebook)
