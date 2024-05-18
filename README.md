@@ -10,6 +10,8 @@ Structure that would follow:
 * [Sequential Data Types](./sequential_data_types/)
 * [Dictionaries](./dictionaries/)
 * [Sets and Frozen Sets](./sets/)
+* [Conditional Statments](./conditional_statements/)
+
 
 ## Details
 
@@ -30,3 +32,7 @@ Detailed Information about Python Dictionaries can be found in [this file](./dic
 
 ### Sets
 Detailed Information about Python Sets can be found in [this file](./sets/README.md).
+
+### Conditional Statements
+Detailed Information about Python Conditional Statements can be found in [this file](./conditional_statements/README.md).
+
