@@ -13,5 +13,7 @@ Code in Python can be structured with indents. It is useful to use indentations 
 if condition:
     statement
     statement
+elif condition:  #only checked if previous if or elif is false
+    statement 
 else:
     statement 
