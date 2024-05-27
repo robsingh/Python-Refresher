@@ -11,7 +11,7 @@ Structure that would follow:
 * [Dictionaries](./dictionaries/)
 * [Sets and Frozen Sets](./sets/)
 * [Conditional Statments](./conditional_statements/)
-
+* [Pattern Matching](./pattern_matching/)
 
 ## Details
 
@@ -36,3 +36,5 @@ Detailed Information about Python Sets can be found in [this file](./sets/README
 ### Conditional Statements
 Detailed Information about Python Conditional Statements can be found in [this file](./conditional_statements/README.md).
 
+### Structural Pattern Matching
+Detailed Information about Pattern Matching in Python can be found in [this file](./pattern_matching/README.md).
