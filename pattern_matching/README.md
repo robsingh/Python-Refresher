@@ -87,4 +87,5 @@ for i in range(6):
     print(i, factorial(n))
 
 ```
-
+Alert:
+'match' is only available from Python 3.10 onward, and hence it is important to check if your code is compatible with it. 
