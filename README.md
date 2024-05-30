@@ -41,4 +41,4 @@ Detailed Information about Python Conditional Statements can be found in [this f
 Detailed Information about Pattern Matching in Python can be found in [this file](./pattern_matching/README.md).
 
 ### Control Structure
-Detailed Information about Control Structure in Python can be found in [this file](./control_structure/README.md)
+Detailed Information about Control Structure in Python can be found in [this file](./control_structure/README.md).
