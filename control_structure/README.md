@@ -13,4 +13,4 @@ Python supplies two different kinds of loops - the 'while' loop and the 'for' lo
 The body of the loop will be executed as long as the mentioned condition yields True. With the help of a break statement, a while loop can be left prematurely. 
 'Break' should not be confused with 'continue' statment. 'continue' STOPS the current iteration of the loop and starts the next iteration by checking the condition. If a loop is left by a break, the else part is not executed. 
 
-<!-- The above mentioned behaviour is discussed [here](https:) -->
+The above mentioned behaviour is discussed [here](https://github.com/robsingh/python-refresher/blob/8721858ccb2172332faac3025a4b5d5698e31646/control_structure/examples.py#L1-L26)
