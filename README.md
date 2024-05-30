@@ -12,6 +12,7 @@ Structure that would follow:
 * [Sets and Frozen Sets](./sets/)
 * [Conditional Statments](./conditional_statements/)
 * [Pattern Matching](./pattern_matching/)
+* [Control Structure](./control_structure/)
 
 ## Details
 
@@ -38,3 +39,6 @@ Detailed Information about Python Conditional Statements can be found in [this f
 
 ### Structural Pattern Matching
 Detailed Information about Pattern Matching in Python can be found in [this file](./pattern_matching/README.md).
+
+### Control Structure
+Detailed Information about Control Structure in Python can be found in [this file](./control_structure/README.md)
