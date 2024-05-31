@@ -62,3 +62,27 @@ while counter <= n:
 
 print(f"{n}! = {factorial}")
 '''
+
+'''
+Write a Python program that simulates a simple password checker. 
+The program should ask the user to enter a password and continue to prompt them until they enter the correct password. 
+If the user exceeds the maximum number of attempts, the program should lock them out.
+Once the correct password is entered, the program should print a success message.
+'''
+'''saved_password = 'OneLove'
+max_attempts = 5
+count_attempts = 0
+
+while count_attempts < max_attempts:
+    password = input("Enter the password: ")
+    if password == saved_password:
+            print("Correct Password Entered!")
+            break
+    else:
+        count_attempts += 1
+        remaining_attempts = max_attempts - count_attempts
+        if remaining_attempts > 0:
+             print(f"Incorrect Password. You have {remaining_attempts} attempt(s) left!")
+        else:
+             print("Maximum attempts exceeded! You are now locked out!")'''
+
