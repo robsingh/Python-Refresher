@@ -28,7 +28,7 @@ else:
 '''
 
 #dog to human age convertor -> 0 or a negative value means that they want to finish.
-dog_age = 1
+'''dog_age = 1
 while dog_age > 0:
     dog_age = int(input("Age of the dog: (0 or negative number to finish)"))
     print()
@@ -41,5 +41,24 @@ while dog_age > 0:
 
     print("Corresponds to " + str(human_age) + " human years!")
 
-print("Program finished!")
+print("Program finished!")'''
 
+
+'''
+Write a Python program that calculates the factorial of a number entered by the user using a while loop. 
+The factorial of a non-negative integer n, denoted in mathematics as n!, is the product of all positive integers from 1 to n. 
+For example, 5! (read as "5 factorial") is equal to 5 * 4 * 3 * 2 * 1, which is 120.
+'''
+# could be done in a single line using recursion too, but we are focusing on 'while' loops here.
+'''
+n = int(input("Enter a positive integer: "))
+
+factorial = 1
+counter = 1
+
+while counter <= n:
+    factorial *= counter
+    counter += 1
+
+print(f"{n}! = {factorial}")
+'''
