@@ -86,3 +86,23 @@ while count_attempts < max_attempts:
         else:
              print("Maximum attempts exceeded! You are now locked out!")'''
 
+'''
+Write a Python program that checks whether a given positive integer is a prime number. 
+(a number that can only be divided by itself and 1 without remainders) -> 2,3,5,7,11,13 and so on. 
+The program should ask the user to input a number and then use a while loop to determine if the number is prime.
+'''
+
+check_prime = int(input("Enter the number to check if it is prime or not: "))
+divisor = 1
+is_prime = True
+
+while divisor <= check_prime // 2:
+    divisor += 1
+    if check_prime % divisor == 0 and is_prime:
+        is_prime = False
+        break
+
+if is_prime:
+    print(check_prime, "is a prime number!")
+else:
+    print(check_prime, "is not a prime number.")
