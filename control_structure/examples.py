@@ -91,7 +91,7 @@ Write a Python program that checks whether a given positive integer is a prime n
 (a number that can only be divided by itself and 1 without remainders) -> 2,3,5,7,11,13 and so on. 
 The program should ask the user to input a number and then use a while loop to determine if the number is prime.
 '''
-
+'''
 check_prime = int(input("Enter the number to check if it is prime or not: "))
 divisor = 1
 is_prime = True
@@ -105,4 +105,10 @@ while divisor <= check_prime // 2:
 if is_prime:
     print(check_prime, "is a prime number!")
 else:
-    print(check_prime, "is not a prime number.")
+    print(check_prime, "is not a prime number.")'''
+
+'''
+Write a Python program that generates the Fibonacci sequence up to a specified number of terms.
+The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones. 
+The first two numbers in the sequence are typically 0 and 1.
+'''
