@@ -112,9 +112,16 @@ Write a Python program that generates the Fibonacci sequence up to a specified n
 The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones. 
 The first two numbers in the sequence are typically 0 and 1.
 '''
+'''n_terms = int(input("Enter the number of terms for Fibonacci sequence: "))
+old, new = 0,1
+count = 0
 
+while count < n_terms:
+    print(old, end=" ")
+    old, new = new, old + new
+    count += 1
 
-
+print()'''
 
 '''
 Exercise 7:
