@@ -134,3 +134,16 @@ Write a program to print out the sequence of a number n
 How long is the sequence for the number 271114753?
 Write a program to print the lengths of the Collatz sequences for the numbers from 1 to 100.
 '''
+'''
+n = int(input("Enter a positive integer: "))
+
+if n <= 0:
+    print("Please enter a positive integer.")
+else:
+    print(f"Collatz sequence for {n}:")
+    while n != 1:
+        if n % 2 == 0:
+            n = n // 2
+        else:
+            n = 3 * n + 1
+        print(n)'''
