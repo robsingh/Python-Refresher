@@ -130,6 +130,7 @@ The conjecture asks whether repeating two simple arithmetic operations will even
 It concerns sequences of integers in which each term is obtained from the previous term as follows: if the previous term is even, 
 the next term is one half of the previous term. If the previous term is odd, the next term is 3 times the previous term plus 1. 
 The conjecture is that these sequences always reach 1, no matter which positive integer is chosen to start the sequence.
+
 Write a program to print out the sequence of a number n
 How long is the sequence for the number 271114753?
 Write a program to print the lengths of the Collatz sequences for the numbers from 1 to 100.
@@ -147,3 +148,38 @@ else:
         else:
             n = 3 * n + 1
         print(n)'''
+
+# length of the sequence
+'''
+n = int(input("Enter a positive integer: "))
+length_of_sequence = 0
+if n <= 0:
+    print("Please enter a positive integer.")
+else:
+    while n != 1:
+        if n % 2 == 0:
+            n = n // 2
+        else:
+            n = 3 * n + 1
+        length_of_sequence += 1
+
+print(f"Length of sequence: {length_of_sequence}")'''
+
+# print length of the sequence from 1 to 100
+
+counter = 1
+stop_value = 100
+
+while counter <= stop_value:
+    n = counter
+    length_of_sequence = 0
+    while n != 1:
+        if n % 2 == 0:
+            n = n // 2
+        else:
+            n = 3 * n + 1
+        length_of_sequence += 1
+    
+    print(f"{counter}: {length_of_sequence}", end=", ")
+    counter += 1
+print()
