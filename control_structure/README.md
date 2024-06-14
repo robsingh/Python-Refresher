@@ -14,3 +14,11 @@ The body of the loop will be executed as long as the mentioned condition yields 
 'Break' should not be confused with 'continue' statment. 'continue' STOPS the current iteration of the loop and starts the next iteration by checking the condition. If a loop is left by a break, the else part is not executed. 
 
 The above mentioned behaviour is discussed [here](https://github.com/robsingh/python-refresher/blob/8721858ccb2172332faac3025a4b5d5698e31646/control_structure/examples.py#L1-L27).
+
+
+# For Loop
+
+A 'for' loop is used for iterating over a sequence(list, tuple, string etc) or other iterable objects. It is a fundamental concept in programming which allows us to repeat a block of code a specific number of times or iterate through the elements of a sequence.
+
+The items of the sequence object are assigned one after the other to the loop variable; to be precise the variable points to the items. For each item the loop body is executed. 
+
