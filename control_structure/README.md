@@ -22,3 +22,11 @@ A 'for' loop is used for iterating over a sequence(list, tuple, string etc) or o
 
 The items of the sequence object are assigned one after the other to the loop variable; to be precise the variable points to the items. For each item the loop body is executed. 
 
+Different kinds of 'for' loop:
+1. Count-controlled - This is primarily used by C. Python does not have a count controlled loop implementation. It has a initialisation part, a termination expression, and a counting expression. 
+
+2. Numeric Ranges - This is a simplified version of count-controlled loops. Starting with a start value and counting up to an end value. Python doesn't use this either. 
+
+3. Iterator based for loop - This is the type of 'for' loop used by Python. It iterates over an enumeration of a set of items. In each iteration step, a loop variable is set to a value in sequence or other data collection. 
+
+In Python, an 'else' block that follows a 'for' or 'while' loop is executed only if the loop completes normally, without encountering a 'break' statement. 
