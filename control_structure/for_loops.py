@@ -17,7 +17,7 @@ else:
     print()'''
 
 # Create a program that prints a diamond pattern using asterisks (*)
-height = int(input("Enter height of the diamond: "))
+'''height = int(input("Enter height of the diamond: "))
 
 height_is_even = height % 2 == 0
 middle = height // 2 if height_is_even else height // 2 + 1
@@ -33,4 +33,27 @@ if height_is_even:
     print(spaces.center(middle*2+1))
 while len(spaces) > 1:
     spaces = spaces[:-2]
-    print(spaces.center(middle*2+1))
+    print(spaces.center(middle*2+1))'''
+
+# Write a program to find and print all prime numbers between 1 and 50 using a for loop.
+'''print("Printing all prime numbers between 1 and 50: ")
+start = 1
+stop = 51
+for num in range(start, stop):
+    if num <= 1:
+        is_prime = False
+    elif num <= 3:
+        is_prime = True
+    elif num % 2 == 0 or num % 3 == 0:
+        is_prime = False
+    else:
+        is_prime = True
+        i = 5
+        while i * i <= num:
+            if num % i == 0 or num % (i+2) == 0:
+                is_prime = False
+                break
+            i += 6
+    if is_prime:
+        print(num, end=" ")
+        print()'''
