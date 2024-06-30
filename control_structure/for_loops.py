@@ -57,3 +57,20 @@ for num in range(start, stop):
     if is_prime:
         print(num, end=" ")
         print()'''
+
+# Print numbers from 1 to 42, but for multiples of 3, print "Fizz," and for multiples of 5, print "Buzz." 
+# For numbers that are multiples of both 3 and 5, print "FizzBuzz."
+'''
+start = 1
+stop = 43
+
+for num in range(start, stop):
+    if num % 3 == 0 and num % 5 == 0:
+        print("FizzBuzz")
+    elif num % 3 == 0:
+        print("Fizz")
+    elif num % 5 == 0:
+        print("Buzz")
+    else:
+        print(num)'''
+
