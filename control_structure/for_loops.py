@@ -73,4 +73,36 @@ for num in range(start, stop):
         print("Buzz")
     else:
         print(num)'''
+'''
+This exercise is about the Ramanujan-Hardy number. There is a little anecdote of the Mathematician G.H. Hardy when he visited 
+Indian mathematician Srinivasa Ramanujan in hospital. It goes like this:
+
+I remember once going to see him when he was ill at Putney. I had ridden in taxi cab number 1729 and remarked that the number seemed 
+to me rather a dull one, and that I hoped it was not an unfavourable omen. "No," he replied, "it is a very interesting number; it is 
+the smallest number expressible as the sum of two cubes in two different ways."
+For this reason 1729 is known as the Ramanujan-Hardy number.
+Can you verify this with a Python program?'''
+
+import math
+number = 1729
+
+n = int(number ** (1/3))
+
+cubes = {}
+for i in range(n+1):
+    for j in range(i):
+        result = i ** 3 + j ** 3
+        if result in cubes:
+            cubes[result].append((i,j))
+        else:
+            cubes[result] = [(i,j)]
+        if result > number:
+            break
+
+for x in cubes:
+    if len(cubes[x]) > 1:
+        print(x, cubes[x])
+
+
+
 
