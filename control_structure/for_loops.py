@@ -128,6 +128,20 @@ for x in squares:
         print(x, squares[x])
 '''
 
+# Write a Python program to generate and print the first n rows of Pascal's Triangle.
+'''n = int(input("enter rows to generate Pascal's traingle: "))
+triangle = []
 
+for i in range(n):
+    row = []
+    for j in range(i+1):
+        if j == 0 or j == i:
+            row.append(1)
+        else:
+            previous_row = triangle[i-1]
+            row.append(previous_row[j-1] + 
+                       previous_row[j])
+    triangle.append(row)
 
-
+for row in triangle:
+    print(" ".join(map(str, row)).center(n*3))'''
