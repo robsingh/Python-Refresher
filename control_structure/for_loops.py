@@ -82,7 +82,7 @@ to me rather a dull one, and that I hoped it was not an unfavourable omen. "No,"
 the smallest number expressible as the sum of two cubes in two different ways."
 For this reason 1729 is known as the Ramanujan-Hardy number.
 Can you verify this with a Python program?'''
-
+'''
 import math
 number = 1729
 
@@ -102,6 +102,31 @@ for i in range(n+1):
 for x in cubes:
     if len(cubes[x]) > 1:
         print(x, cubes[x])
+'''
+
+
+# 1729 is the lowest number which can be represented by a Loeschian quadratic form a ** 2 + b ** 2 + 2*a*b
+# in four different ways, with positive integers a and b.
+
+'''
+number = 1729
+n = int(number ** (1/2))
+
+squares = {}
+for i in range(n+1):
+    for j in range(i):
+        result = i ** 2 + j ** 2 + i*j
+        if result in squares:
+            squares[result].append((i,j))
+        else:
+            squares[result] = [(i,j)]
+        if result > number:
+            break
+
+for x in squares:
+    if len(squares[x]) > 3:
+        print(x, squares[x])
+'''
 
 
 
