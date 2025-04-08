@@ -14,3 +14,36 @@ def function_name(parameters):
 ```
 
 The parameters consists of none or more parameters. Parameters are called 'Arguments', if the function is called. The function body consists of indented statements. The function body gets executed every time the function is called.
+
+# Default Arguments
+
+When we define a Python function, we can set a default value to a parameter. If the function is called without the argument, this default value will be assigned to the parameter. Hence, they are optional.
+Demonstration of this behavior is as follows:
+
+```
+def hello(name="everybody"):
+    result = "Hello" + name
+
+hello("Rob")
+hello()
+```
+```
+Output:
+Hello Rob
+Hello everybody
+```
+
+One interesting scenario arises from the way Python treats the default arguments if it is a mutable object.
+Passing mutable lists or dictionaries as default arguments to a function can have unforseen effects. 
+Programmers can expect the program to create a new list or dictionary every time the function is called after using lists or dictionaries as default arguments, but this is not what actually happens.
+Default values are created exactly once, at the compile time.
+
+
+# Return Values
+
+Function bodies can contain one or more return statements. They can be situated anywhere in the function body. A return statement ends the execution of the function call and returns the results, 
+i.e. the value of the expression following the return keyword, to the caller. If the return statement is without an expression, 'None' is returned. If there is no return statement in the function code, the function ends, when the control flow reaches the end of the function body and the value 'None' will be returned.
+
+# Local and Global Variables
+
+Variable names are by default local to the function.
