@@ -155,3 +155,15 @@ def fuzzy_time(time):
 
 
 print(fuzzy_time("12:25"))'''
+
+# Write a function which calculates the arithmetic mean of a variable number of values.
+'''
+def arithmetic_mean(x, *l):
+    sum = x
+    for i in l:
+        sum += i
+    
+    return sum / (1.0 + len(l))
+
+l = [4, 7, 8]
+print(arithmetic_mean(*l))'''
