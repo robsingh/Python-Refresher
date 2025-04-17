@@ -22,8 +22,15 @@ person = {
 
 A list is a sequence of objects where the order matters. You can access the elements of the list through its index. Similarly dictionaries are also ordered but we can't access elements by their position. 
 
-In a dictionary, you can directly retrieve an information using the key, which is much quicker compared to searching through a list.
+In a dictionary, you can directly retrieve an information using the key, which is much quicker compared to searching through a list. To access multiple keys, you need to access each key individually from the dictionary.
+
 Think of it like looking up a word in dictionary versus flipping through pages of a book to find it. The dictionary provides instant access, while the list requires more time to search through. 
+
+Syntax of Dictionary Comprehension:
+```
+{key: value for item in iterable}
+
+```
 
 # items() 
 - The items view can be turned into a list by applying the list function. We have no information loss by turning a dictionary into an item view or an items list. Accessing dictionary items via a method like items() provides a more efficient approach compared to creating lists directly due to: 
