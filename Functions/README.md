@@ -57,3 +57,13 @@ For that case, an asterisk "*" is used in front of the last parameter name to de
 
 To pass an arbitrary number of keyword parameters to a function as a dictionary, we use double asterisk.
 
+There is a clear difference between Parameter and Argument.
+Parameters are inside functions or procedures, while arguments are used in procedure calls,
+i.e. the values passed to the function at run-time.
+
+# Call by Value and Call by Reference
+
+Python's argument passing mechanism can be understood as call by object reference, where the behavior depends on the mutability of the objects being passed.
+
+We use "**" double asterisk notation for arbitrary keyword parameters.
+
