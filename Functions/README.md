@@ -65,5 +65,6 @@ i.e. the values passed to the function at run-time.
 
 Python's argument passing mechanism can be understood as call by object reference, where the behavior depends on the mutability of the objects being passed.
 
-We use "**" double asterisk notation for arbitrary keyword parameters.
-
+The *args and **kwargs are common idioms to allow an arbitrary number of arguments to functions.
+The *args will give positional arguments as a tuple.
+The **kwargs will give all keyword arguments as a dictionary.
