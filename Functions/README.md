@@ -52,8 +52,8 @@ Global keyword is used to make the variable global.
 # Arbitrary Number of Parameters
 
 What if we don't know the exact number of parameters we want in our function.
-For that case, an asterisk '*' is used in front of the last parameter name to denote it as a tuple reference. (Please do not mistake it for pointers in C)
-'*' will unpack or singularize.
+For that case, an asterisk is used in front of the last parameter name to denote it as a tuple reference. (Please do not mistake it for pointers in C)
+Asterisk will unpack or singularize.
 
 To pass an arbitrary number of keyword parameters to a function as a dictionary, we use double asterisk.
 
