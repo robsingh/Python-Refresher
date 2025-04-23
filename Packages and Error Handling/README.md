@@ -1,7 +1,7 @@
 # Introduction
 
-I am going to combine two topics in single readme file.
-First, I am going to talk about Packages in Python and later talk about Error Handling
+I am going to combine two topics in a single readme file.
+First, I am going to talk about Packages in Python and later talk about Error Handling.
 
 # Packages
 
@@ -39,7 +39,7 @@ You can also write exceptions on your own.
 Meanwhile, there is another way to use it as well. The try statement can be followed by a finally clause. Finally clauses are called
 clean-up or termination clauses, because they must be executed under all circumstances i.e. a "finally" clause is always executed regardless if an exception occurred in a try block or not.
 
-It looks like:
+The skeleton looks like:
 
 ```
 try:
