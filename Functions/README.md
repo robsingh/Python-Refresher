@@ -52,8 +52,8 @@ Global keyword is used to make the variable global.
 # Arbitrary Number of Parameters
 
 What if we don't know the exact number of parameters we want in our function.
-For that case, an asterisk "*" is used in front of the last parameter name to denote it as a tuple reference. (Please do not mistake it for pointers in C)
-"*" will unpack or singularize.
+For that case, an asterisk '*' is used in front of the last parameter name to denote it as a tuple reference. (Please do not mistake it for pointers in C)
+'*' will unpack or singularize.
 
 To pass an arbitrary number of keyword parameters to a function as a dictionary, we use double asterisk.
 
@@ -65,6 +65,6 @@ i.e. the values passed to the function at run-time.
 
 Python's argument passing mechanism can be understood as call by object reference, where the behavior depends on the mutability of the objects being passed.
 
-The *args and **kwargs are common idioms to allow an arbitrary number of arguments to functions.
+The *args and **kwargs are common idioms to allow an arbitrary number of arguments to functions. 
 The *args will give positional arguments as a tuple.
 The **kwargs will give all keyword arguments as a dictionary.
