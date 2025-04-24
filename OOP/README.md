@@ -48,6 +48,7 @@ Attributes are created inside a class definition. We do this by joining an arbit
 
 In the above example, self.name and self.age refer to the instance variables.
 
-__init__ is a method which is immediately and automatically called after an instance has been created. It is one of the magic methods. Basically, it initializes an instance. There is no explicit constructor or destructor method in Python. 
-__init__ could be placed anywhere in the class, but it is a good idea to be the first method of a class. Refer to the example above.
+* __init__ is a method which is immediately and automatically called after an instance has been created.
+* It is one of the magic methods. It initializes an instance. There is no explicit constructor or destructor method in Python. 
+* __init__ could be placed anywhere in the class, but it is a good idea to be the first method of a class. Refer to the example above.
 
